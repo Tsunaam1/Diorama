@@ -8,5 +8,5 @@ Formulas: 1,5 hour
 Daft Punk Stage: 6,5 hours
 Ferris Wheel: 2 hours
 
-#Compatibility
+# Compatibility
 Works perfectly on Firefox and Chrome
