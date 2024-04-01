@@ -235,7 +235,7 @@ var uizt = [0, 45, 90, 135, 180, 225, 270, 315, 360]
 function basketRotate() {
   for (var i = 0; i < 8; i++) {
     ctx.save()
-    ctx.translate(482, canvas.height - 380)
+    ctx.translate(480, canvas.height - 380)
     ctx.rotate((ojkdf + uizt[i]) * (Math.PI / 180))
     ctx.translate(250, 0)
     ctx.rotate(-(ojkdf + uizt[i]) * (Math.PI / 180))
@@ -256,7 +256,7 @@ function wheelRotate() {
     ojga = 0
   }
   ctx.save()
-  ctx.translate(482, canvas.height - 380)
+  ctx.translate(480, canvas.height - 380)
   ctx.rotate(ojkdf * (Math.PI / 180))
   wheelDraw()
   ctx.restore()
