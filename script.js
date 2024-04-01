@@ -231,27 +231,17 @@ function basketDraw() {
   ctx.restore()
 }
 
-var mkdf = 0
-var oddfw = 0
 var uizt = [0, 45, 90, 135, 180, 225, 270, 315, 360]
 function basketRotate() {
-  if (oddfw > 360) {
-    oddfw = 0
-  }
-  if (mkdf >= 4) {
-    oddfw++
-    mkdf = 0
-  }
   for (var i = 0; i < 8; i++) {
     ctx.save()
     ctx.translate(482, canvas.height - 380)
-    ctx.rotate((oddfw + uizt[i]) * (Math.PI / 180))
+    ctx.rotate((ojkdf + uizt[i]) * (Math.PI / 180))
     ctx.translate(250, 0)
-    ctx.rotate(-(oddfw + uizt[i]) * (Math.PI / 180))
+    ctx.rotate(-(ojkdf + uizt[i]) * (Math.PI / 180))
     basketDraw()
     ctx.restore()
   }
-  mkdf++
 }
 
 var ojkdf = 0
