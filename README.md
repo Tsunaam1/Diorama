@@ -10,6 +10,7 @@
 + Clouds: 20 minutes
 
 # Compatibility
+Designed for desktop, not for mobile phones..
 Works perfectly on Firefox and Chrome
 
 # Live Preview
