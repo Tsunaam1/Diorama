@@ -10,3 +10,6 @@
 
 # Compatibility
 Works perfectly on Firefox and Chrome
+
+# Live Preview
+[<img src="![firefox_fwtTyfkNA1](https://github.com/Tsunaam1/Diorama/assets/119320765/7242b1c2-535e-4912-9189-da1b84149b9f)">](https://tunki.pages.dev/Diorama/)
