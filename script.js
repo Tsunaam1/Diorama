@@ -26,7 +26,7 @@ class Clouds {
   }
   draw(ctx) {
     ctx.drawImage(cloud, 0, 0, 800, 600, this.x, this.y, 200, 150)
-    console.log(this.x, this.y)
+    // console.log(this.x, this.y)
   }
 }
 
